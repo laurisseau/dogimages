@@ -1,2 +1,24 @@
-.env
+# Ignore Python virtual environment
 Lib/
+Include/
+Scripts/
+pyvenv.cfg
+
+# Ignore environment variable files
+.env
+
+# Ignore Docker build artifacts (if any)
+*.tar
+*.log
+
+# Ignore __pycache__ and Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+
+# Windows-specific temporary files
+Thumbs.db
+*.DS_Store
